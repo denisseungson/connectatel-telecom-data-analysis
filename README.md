@@ -1,4 +1,4 @@
-# telecom-analysis-sprint7-final-project
+# Análisis de Datos de Telecomunicaciones – ConnectaTel
 📊 Proyecto 6 - Análisis de Clientes de Telecomunicaciones (ConnectaTel)
 
 📌 Descripción del Proyecto
