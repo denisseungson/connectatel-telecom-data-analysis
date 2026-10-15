@@ -1,5 +1,5 @@
 # Análisis de Datos de Telecomunicaciones – ConnectaTel
-📊 Proyecto 6 - Análisis de Clientes de Telecomunicaciones (ConnectaTel)
+📊 Análisis del comportamiento y uso de clientes de telecomunicaciones
 
 📌 Descripción del Proyecto
 
@@ -7,44 +7,20 @@ Este proyecto tiene como objetivo analizar el comportamiento de los clientes de 
 
 A partir de información de usuarios, planes contratados y registros de uso de llamadas y mensajes, se realizó un proceso completo de limpieza, exploración, análisis estadístico y segmentación de clientes para identificar patrones de consumo, detectar comportamientos atípicos y generar recomendaciones de negocio.
 
-🎯 Objetivos
-Analizar el comportamiento de uso de llamadas y mensajes de los clientes.
-Detectar problemas de calidad de datos y corregirlos.
-Identificar valores atípicos (outliers).
-Segmentar clientes según edad y nivel de uso.
-Generar insights que apoyen la toma de decisiones comerciales.
-Proponer mejoras en la oferta de planes y estrategias de retención.
+## 🎯 Objetivos
 
-📂 Datasets Utilizados
-plans.csv
+- Analizar el comportamiento de uso de llamadas y mensajes de los clientes.
+- Detectar problemas de calidad de los datos y realizar las correcciones necesarias.
+- Identificar valores atípicos (outliers) en los patrones de uso.
+- Segmentar a los clientes según características como edad y nivel de uso.
+- Identificar patrones que puedan apoyar la toma de decisiones comerciales.
+- Generar recomendaciones relacionadas con la oferta de planes y estrategias de retención.
 
-Contiene información sobre los planes ofrecidos por la empresa:
+## 📁 Conjuntos de datos utilizados
 
-plan
-precio mensual
-minutos incluidos
-GB incluidos
-costo por consumo adicional
-users_latam.csv
-
-Información de los clientes:
-
-user_id
-age
-city
-reg_date
-plan
-churn
-usage.csv
-
-Registros de actividad de los usuarios:
-
-id
-user_id
-type (call o text)
-duration
-length
-date
+- **planes.csv:** información sobre los planes ofrecidos, incluyendo precio mensual, minutos y GB incluidos y costos por consumo adicional.
+- **usuarios_latam.csv:** información de los clientes, como edad, ciudad, fecha de registro y plan contratado.
+- **uso.csv:** registros de actividad de los usuarios, incluyendo llamadas y mensajes.
 
 🔎 Etapas del Análisis
 1. Carga y Exploración de Datos
@@ -79,9 +55,9 @@ Joven
 Adulto
 Adulto Mayor
 7. Insights de Negocio
-Identificación de segmentos de mayor valor.
-Detección de oportunidades comerciales.
-Recomendaciones para optimizar la oferta de planes.
+Identificación de segmentos con diferentes niveles de uso.
+Análisis de patrones relevantes para el negocio.
+Propuestas de posibles acciones comerciales a partir de los resultados observados.
 
 🛠️ Tecnologías Utilizadas
 Python
@@ -120,14 +96,13 @@ Abrir el notebook.
 Ejecutar las celdas en orden desde el inicio.
 Revisar las visualizaciones, estadísticas y conclusiones generadas.
 
-💡 Principales Hallazgos
-Se identificaron problemas de calidad de datos relacionados con sentinels y fechas fuera de rango.
-Los usuarios de alto consumo representan el segmento de mayor valor para la empresa.
-Se detectaron patrones de uso intensivo que justifican ofertas diferenciadas.
-La segmentación por edad y comportamiento permite diseñar estrategias comerciales más efectivas.
+## 💡 Principales hallazgos
 
-👩‍💻 Autor
+El análisis permitió identificar diferencias en los patrones de uso entre los clientes, así como valores atípicos y segmentos con distintos niveles de consumo.
 
-Denisse Ungson
+La segmentación por edad y nivel de uso permitió describir grupos de clientes con comportamientos diferentes, proporcionando información que puede utilizarse como apoyo para futuras decisiones comerciales.
 
-Proyecto desarrollado como parte del Bootcamp de Análisis de Datos, Sprint 7.
+## 👩‍💻 Autora
+
+**Denisse Ungson**  
+Analista de Datos Junior
