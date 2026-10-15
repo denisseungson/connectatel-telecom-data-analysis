@@ -22,79 +22,82 @@ A partir de información de usuarios, planes contratados y registros de uso de l
 - **usuarios_latam.csv:** información de los clientes, como edad, ciudad, fecha de registro y plan contratado.
 - **uso.csv:** registros de actividad de los usuarios, incluyendo llamadas y mensajes.
 
-🔎 Etapas del Análisis
-1. Carga y Exploración de Datos
-Importación de librerías.
-Carga de datasets.
-Revisión de estructura, dimensiones y tipos de datos.
-2. Calidad de Datos
-Identificación de valores nulos.
-Detección de sentinels e inconsistencias.
-Validación de variables categóricas.
-Revisión de fechas fuera de rango.
-3. Limpieza de Datos
-Reemplazo del valor sentinel -999 en edad.
-Sustitución del valor "?" por valores nulos.
-Corrección de fechas futuras.
-Validación de nulos dependientes del tipo de registro.
-4. Análisis Estadístico
-Estadísticas descriptivas.
-Distribuciones de variables numéricas.
-Frecuencias de variables categóricas.
-5. Detección de Outliers
-Histogramas.
-Boxplots.
-Método IQR para validación de valores extremos.
-6. Segmentación de Clientes
-Segmentación por nivel de uso:
-Bajo uso
-Uso medio
-Alto uso
-Segmentación por edad:
-Joven
-Adulto
-Adulto Mayor
-7. Insights de Negocio
-Identificación de segmentos con diferentes niveles de uso.
-Análisis de patrones relevantes para el negocio.
-Propuestas de posibles acciones comerciales a partir de los resultados observados.
+## 🔎 Etapas del Análisis
 
-🛠️ Tecnologías Utilizadas
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Jupyter Notebook
-GitHub
+1. **Carga y Exploración de Datos**
+   - Importación de librerías.
+   - Carga de conjuntos de datos.
+   - Revisión de estructura, dimensiones y tipos de datos.
 
-▶️ Cómo Ejecutar el Proyecto
-Opción 1: Google Colab
-Descargar el archivo .ipynb.
-Abrir Google Colab.
-Seleccionar Archivo → Subir Notebook.
-Cargar el notebook.
-Ejecutar las celdas en orden.
-Opción 2: Jupyter Notebook
-Clonar el repositorio:
-git clone URL_DEL_REPOSITORIO
-Entrar al proyecto:
-cd telecom-analysis
-Instalar dependencias:
-pip install pandas numpy matplotlib seaborn jupyter
-Ejecutar:
-jupyter notebook
-Abrir el notebook principal y ejecutar todas las celdas.
+2. **Calidad de Datos**
+   - Identificación de valores nulos.
+   - Detección de centinelas e inconsistencias.
+   - Validación de variables categóricas.
+   - Revisión de fechas fuera de rango.
 
-🔄 Guía de Reproducción
-Descargar o clonar este repositorio.
-Colocar los archivos:
-plans.csv
-users_latam.csv
-usage.csv
-Abrir el notebook.
-Ejecutar las celdas en orden desde el inicio.
-Revisar las visualizaciones, estadísticas y conclusiones generadas.
+3. **Limpieza de Datos**
+   - Reemplazo del valor sentinel -999 en edad.
+   - Sustitución del valor "?" por valores nulos.
+   - Corrección de fechas futuras.
+   - Validación de nulos dependientes del tipo de registro.
+
+4. **Análisis Estadístico**
+   - Estadísticas descriptivas.
+   - Distribuciones de variables numéricas.
+   - Frecuencias de variables categóricas.
+
+5. **Detección de Outliers**
+   - Histogramas.
+   - Diagramas de caja.
+   - Método IQR para validación de valores extremos.
+
+6. **Segmentación de Clientes**
+   - Segmentación por nivel de uso: bajo, medio y alto.
+   - Segmentación por edad: joven, adulto y adulto mayor.
+
+7. **Insights de Negocio**
+   - Identificación de segmentos con diferentes niveles de uso.
+   - Análisis de patrones relevantes para el negocio.
+   - Propuestas de posibles acciones comerciales a partir de los resultados observados.
+     
+## 🛠️ Tecnologías Utilizadas
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+- GitHub
+
+## ▶️ Cómo Ejecutar el Proyecto
+
+### Opción 1: Google Colab
+
+1. Descargar el archivo `.ipynb`.
+2. Abrir Google Colab.
+3. Seleccionar **Archivo → Subir Notebook**.
+4. Cargar el cuaderno.
+5. Ejecutar las celdas en orden.
+
+### Opción 2: Jupyter Notebook
+
+1. Clonar el repositorio.
+2. Entrar al proyecto.
+3. Instalar las dependencias.
+4. Ejecutar Jupyter Notebook.
+5. Abrir el notebook principal y ejecutar todas las celdas.
+
+## 🔄 Guía de Reproducción
+
+1. Descargar o clonar este repositorio.
+2. Colocar los archivos:
+   - `planes.csv`
+   - `usuarios_latam.csv`
+   - `uso.csv`
+3. Abrir el cuaderno.
+4. Ejecutar las celdas en orden desde el inicio.
+5. Revisar las visualizaciones, estadísticas y conclusiones generadas.
 
 ## 💡 Principales hallazgos
 
